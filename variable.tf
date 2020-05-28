@@ -1,5 +1,3 @@
-# Variables for main.tf of "projectH"
-
 variable "region" {
   default = "us-east-1"
 }
