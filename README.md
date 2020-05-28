@@ -130,6 +130,8 @@ Note: You may use https://letsencrypt.org/ as alternative for third-party certif
 
 You will prompted for your email address, and after you have entered that, the script will automate the process of requesting and installing the SSL certs. You will get output similar to the following:
 
+
+
 Obtaining a new certificate
 Performing the following challenges:
 http-01 challenge for {yourdomanin}
@@ -153,6 +155,8 @@ That is it: The application is now installed, SSL certificates are configured, a
 Managing the instance
 
 To stop, start, and check the status of the services, use the following commands:
+
+
 $ sudo service jitsi-videobridge restart
 $ sudo service jitsi-videobridge stop
 $ sudo service jitsi-videobridge start
